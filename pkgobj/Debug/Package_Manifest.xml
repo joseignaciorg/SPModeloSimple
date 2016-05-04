@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0002b03c-8ab3-4563-86fd-fad6d7234249" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Modelos.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Modelos_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

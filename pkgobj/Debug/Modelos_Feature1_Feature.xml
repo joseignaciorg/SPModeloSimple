@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Modelos Feature1" Id="1f19017d-a2ce-4c10-becb-ea997b97d15f" ReceiverAssembly="Microsoft.Office.SharePoint.ClientExtensions, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" ReceiverClass="Microsoft.Office.SharePoint.ClientExtensions.Deployment.ImportModelReceiver" Scope="Farm">
+  <ElementManifests>
+    <ElementFile Location="Alumnos\Alumnos.bdcm" />
+    <ElementFile Location="BdcAssemblies\Modelos.dll" />
+  </ElementManifests>
+  <Properties>
+    <Property Key="Alumnos" Value="BdcAssemblies\Modelos.dll" />
+    <Property Key="IncrementalUpdate" Value="true" />
+    <Property Key="ModelFileName" Value="Alumnos\Alumnos.bdcm" />
+  </Properties>
+</Feature>
